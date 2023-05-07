@@ -668,7 +668,7 @@ class Horario(QMainWindow):
         # Modificamos texto del subtítulo
         self.label_subtitulo.setText(f'Semana del {int(fecha_inicio.strftime("%d"))} {fecha_inicio.strftime("%B").capitalize()} al {int(fecha_final.strftime("%d"))} de {(fecha_final.strftime("%B")).capitalize()}')
 
-    # ------------------------------------------------------BOTONES------------------------------------------------------
+    # ------------------------------------------------------MENU------------------------------------------------------
     def _crear_menu(self):
         """Crea un menú de acceso rápido"""
         # Creamos los botones del menú
